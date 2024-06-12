@@ -8,7 +8,7 @@ const path = require("path")
 
 app.use(express.json())
 app.use(morgan('dev'))
-app.use(express.static(path.join("project", "client", "dist")))
+app.use(express.static(path.join(__dirname, "client", "dist")))
 
 mongoose.set('strictQuery', true)
 mongoose.connect(
@@ -32,7 +32,7 @@ app.use((err, req, res, next) => {
 })
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join("project", "client", "dist", "index.html"))
+  res.sendFile(path.join(__dirname, "client", "dist", "index.html"))
 })
 app.listen(8050, () => {
     console.log('server running on port 8050')
