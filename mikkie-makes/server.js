@@ -34,6 +34,6 @@ app.use((err, req, res, next) => {
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "client", "dist", "index.html"))
 })
-app.listen(8050, () => {
+app.listen(process.env.PORT, () => {
     console.log('server running on port 8050')
 })
