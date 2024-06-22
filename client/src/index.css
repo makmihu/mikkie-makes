@@ -69,6 +69,7 @@ body{
     font-size: 2.5em;
     text-transform: uppercase;
     margin: 0;
+    text-align: center;
   }
   .sub {
     font-size: 1em;
@@ -579,7 +580,6 @@ a:hover {
   }
   .head {
     font-size: 6em;
-    margin: 0 2.5em 0 .5em;
   }
   .sub {
     font-size: 1.8em;  
