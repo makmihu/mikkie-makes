@@ -49,7 +49,7 @@ export default function Login() {
                 btnText="Sign up"
                 errMsg={errMsg}              
               />
-              <p onClick={toggleForm}>Already a Member?</p>
+              <p className='loginText' onClick={toggleForm}>Already a Member?</p>
             </> 
         : 
             <>
@@ -60,7 +60,7 @@ export default function Login() {
                 btnText="Login"
                 errMsg={errMsg}              
               />
-              <p onClick={toggleForm}>Need to Signup?</p>
+              <p className='loginText' onClick={toggleForm}>Need to Signup?</p>
             </> 
         }
       </div>

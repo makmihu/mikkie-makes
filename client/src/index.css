@@ -7,20 +7,20 @@ body{
 /* navbar */
 .navbar {
   background-color: #143b32;
-  padding: 8px 6em;
-  margin: 10px 2em;
+  padding: .4em .4em;
+  margin: .5em 2em;
   position: sticky;
-  top: 15px;
+  top: .75em;
   display: flex;
   justify-content: space-between; 
   align-items: center;
-  border-radius: 15px;
+  border-radius: .75em;
   z-index: 50;
 }
 .links {
   color: #b3fbeb;   
   text-decoration: none;
-  font-size: 2.2em;
+  font-size: 1em;
   border: none;
   margin: 0;
   padding: 0;
@@ -28,7 +28,7 @@ body{
 
 /* header */
 .header{
-  padding-bottom: 20px;
+  padding-bottom: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,17 +41,17 @@ body{
 .logo {
   background-image: url(./components/images/logo.jpg);
   background-size: cover;
-  margin-right: 20px;
+  margin-right: 1em;
   transform: rotate(-15deg);
 }
   .big{
-    margin-top: 10px;
-    height: 150px;
-    width: 150px;
+    margin-top: .5em;
+    height: 4.5em;
+    width: 4.5em;
   }
   .small{
-    height: 80px;
-    width: 80px;
+    height: 3em;
+    width: 3em;
   }
 .headerBox {
   display: flex;
@@ -66,12 +66,12 @@ body{
   padding: 0;
 }
   .head {
-    font-size: 6em;
+    font-size: 2.5em;
     text-transform: uppercase;
-    margin: 0 50px 0 10px;
+    margin: 0;
   }
   .sub {
-    font-size: 1.8em;
+    font-size: 1em;
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -85,13 +85,12 @@ main {
 /* cards */
 .cardsContainer {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
 }
 .card {
   border: 3px solid black;
-  border-radius: 15px;
-  margin: 0 .75em 10px .75em;
-  padding: 20px 1em;
+  border-radius: .75em;
+  margin: 0 .75em .5em .75em;
+  padding: 1em 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -122,8 +121,8 @@ main {
     background-position: 0 0;
     background-repeat: repeat;
     background-size: auto;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: .75em;
+    border-top-right-radius: .75em;
     border: 3.5px solid #222831;
   }
 .cardImgContainer {
@@ -134,7 +133,7 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #ccc;
-  margin: 10px 0;
+  margin: .5em 0;
 }
 .cardImg {
   object-fit: cover;
@@ -143,8 +142,8 @@ main {
 }
 .cardMain {
   color: #9cbab4;
-  margin: 0 0 10px 0;
-  padding: 5px 5px 10px 5px;
+  margin: 0 0 .5em 0;
+  padding: 5px 5px .5em 5px;
   border: 3.5px solid #222831;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -160,17 +159,17 @@ main {
   align-items: center;
 }
   .topFlat {
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: .75em;
+    border-bottom-right-radius: .75em;
   }
   .topRounded {
-    border-radius: 15px;
+    border-radius: .75em;
   }
 .inventoryDescr {  
   overflow-y: auto;
   background-color: #fab7b1;
   color: #487a70;
-  border-radius: 15px;
+  border-radius: .75em;
   width: 100%;
   height: 140px;
   font-size: 17px;
@@ -178,7 +177,7 @@ main {
 .homeDescr {
   overflow-y: auto;
   height: 6.5em;
-  font-size: 20px;
+  font-size: 1em;
 }
 .inputWLabel {
   display: flex;
@@ -213,7 +212,7 @@ main {
   color:#487a70;
   margin: 5px;
   padding: 5px;
-  border-radius: 10px;
+  border-radius: .5em;
   scrollbar-width: thin;
   scrollbar-color: #9cbab4 #222831;
 }  
@@ -221,7 +220,7 @@ main {
     width: 12.75em;
   }
   .tall {
-    height: 50px;
+    height: 2.5em;
   }
   .num {
     width: 4em;
@@ -231,7 +230,7 @@ main {
   }
 
 .materialLegend {
-  padding: 10px 0;
+  padding: .5em 0;
 }
 .btnContainer {
   display: flex;
@@ -249,38 +248,38 @@ main {
 button {
   background-color: #143b32;
   color: #b3fbeb;
-  border-radius: 50px;
-  padding: 5px 10px;
+  border-radius: 2.5em;
+  padding: 5px .5em;
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans Regular', 'Lucida Sans',  'Geneva', Verdana, sans-serif;
 }
   .cardBtn {
-    font-size: 15px;
+    font-size: .75em;
     width: 7.5em;
   }
   .productBtn {
-    font-size: 20px;
+    font-size: 1em;
   }
   .formBtn {
     align-self: center;
-    font-size: 20px;
+    font-size: 1em;
     width: 12em;
     grid-column: 1 / -1;
   }
   .editFormBtn {
     align-self: center;
-    font-size: 15px;
+    font-size: .75em;
     width: 10em;
   }
   .loginFormBtn {
     align-self: center;
-    font-size: 2em;
-    width: 15em;
+    font-size: 1em;
+    width: 8em;
   }
 
 /* cart */
 .emptyCart{
   background-color: #393e46;
-  padding: 20px 0 18em;
+  padding: 1em 0 18em;
   flex-grow: 1;
 }
 .emptyCartItem{
@@ -289,15 +288,15 @@ button {
 }
 /* login */
 .loginContainer {
-  margin: 5em 10em 5em 10em;
-  padding: 5em 5em 2em 5em;
+  margin: .25em .25em .25em .25em;
+  padding: 3em .75em .75em .75em;
   background-color:#487a70;
   text-align: center;
   border: #143b32 5px solid;
   background-image: url("./components/images/bamboo.png") ;
 }
-.loginContainer > p {
-  font-size: 2em;
+.loginText {
+  font-size: 1em;
 }
 .loginForm {
   display: flex;
@@ -305,24 +304,25 @@ button {
 }
 /* form */
 .formBox {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
   background-color:#ba9f9c;
   background-image: url(./components/images/noise.png);
   margin-bottom: 30px;
   padding: 5px 1em;
   border: 3px solid black;
-  border-radius: 10px; 
+  border-radius: .5em; 
 }
   .formTopLeft {  
     display: flex;
     flex-direction: column;
-    grid-column: 1 / 4;
+    grid-column: 1 / -1;
     padding: 1em;
   }
   .formTopRight {
-    grid-column: 4 / -1;
+    grid-column: 1 / -1;
     margin: 1em;
+    width: 90%;
+    margin-left: 1.5em;
+    height: 3.5em;
   }
   .formBottom {
     display: flex;
@@ -343,20 +343,20 @@ button {
 .formItem {
   background-color: #7a4c48;
   color:#9cbab4;
-  padding: 5px 15px;
-  border-radius: 15px;
+  padding: 5px .75em;
+  border-radius: .75em;
 }
   .textarea {
-    margin: 20px .5em;
-    font-size: 20px;
+    margin: 1em .5em;
+    font-size: 1em;
   }
   .input {
     margin: 5px .5em;
-    font-size: 20px;
+    font-size: 1em;
   }
   .loginInput {
     margin: 0 1em 1em 1em;
-    font-size: 1.75em;
+    font-size: 1em;
     border: #143b32 3px solid;
   } 
 .labels {
@@ -365,10 +365,10 @@ button {
 }
   .mainLabels {
     margin: 5px .5em;
-    font-size: 20px;
+    font-size: 1em;
   }
   .labelTooLong {
-    font-size: 15px;
+    font-size: .75em;
   }
   .centered {
     text-align: center;
@@ -380,16 +380,14 @@ button {
   padding: 2px;
   background-color: #7a4c48;
   margin-bottom: 5px;
-  border-radius: 10px;
+  border-radius: .5em;
 }
+
 .formSingleCheckbox {
   border-top: #143b32 2px solid;
   border-bottom: #143b32 2px solid;
 }
-.formCheckboxContainer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
+
 
 /* main and aside */
 .mainWithAside {
@@ -399,8 +397,8 @@ button {
 }
 .infoSection {
   border: 5px solid #ccc;
-  padding: 50px 7em;
-  grid-column: 1 / 5;
+  padding: .5em 1.5em;
+  grid-column: 1 / -1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -422,11 +420,11 @@ button {
 .infoHeader {
   font-size: 2.2em;
   font-weight: bolder;
-  margin: 10px 0;
+  margin: .5em 0;
 }
 .info {
   font-size: 1.7em;
-  margin: 20px 0;
+  margin: 1em 0;
 }
 .infoNoMargin {
   font-size: 1.7em;
@@ -443,14 +441,163 @@ button {
   font-size: 2em;
   padding: 22px 8em ;
 }
-
 .aside {
-  padding: 50px 8em;
-  border: 5px solid #ccc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: none;
 }
+
+a {
+  color: #ba9f9c;
+  background-color: none;
+}
+
+a:hover {
+  color: #fab7b1;
+}
+
+
+@media only screen and (550px < width <= 750px){
+  .head {
+    font-size: 3em;
+    margin: 0 1.5em 0 .5em;
+  }
+  .sub {
+    font-size: 1.8em;  
+  }
+  .cardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .infoSection {
+    padding: 1.5em 3.5em;
+  }
+  .loginContainer {
+    margin: 1.75em 2em 1.75em 2em;
+    padding: 3em 1.75em 1.75em 1.75em;
+  }
+  .loginText {
+    font-size: 1em;
+  }
+  .loginFormBtn {
+    font-size: 1em;
+    width: 8em;
+  }
+  .loginInput {
+    font-size: 1.25em;
+  }
+  .formTopRight {
+    width: 90%;
+    margin-left: 1.5em;
+    height: 3.5em;
+  }
+  .formCheckboxContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+@media only screen and (750px < width <= 1024px){
+  .head {
+    font-size: 4.5em;
+    margin: 0 2em 0 .5em;
+  }
+  .sub {
+    font-size: 1.8em;  
+  }
+  .cardsContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .infoSection {
+    padding: 2.5em 7em;
+  }
+  .loginContainer {
+    margin: 3em 5em 3em 5em;
+    padding: 5em 2em 2em 2em;
+  }
+  .loginText {
+    font-size: 1.5em;
+  }
+  .loginFormBtn {
+    font-size: 1.5em;
+    width: 10em;
+  }
+  .loginInput {
+    font-size: 1.5em;
+  }
+  .formBox {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+  }
+  .formTopLeft {  
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / -1;
+    grid-row: 1 / 3;
+    padding: 1em;
+  }
+  .formTopRight {
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+    margin: 0 0 0 1.75em;
+    height: 4.5em;
+  }
+  .bottomLeft {
+    grid-column: 1 / 2;
+    grid-row: 4 / 7;
+  }
+  .bottomLeft > input {
+    max-width: 4.25em;
+    font-size: 1em;
+  }
+  .bottomMiddle {
+    grid-column: 2 / 4;
+    grid-row: 4 / 7;
+  }
+  .bottomRight {
+    grid-column: 4 / -1;
+    grid-row: 4 / 7;
+  }
+  .formCheckboxContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+@media only screen and (width > 1024px){
+  .navbar {
+    padding: .4em 6em;
+    margin: .5em 2em;
+  }
+  .links {
+    font-size: 2.2em;  
+  }
+  .big{
+    margin-top: .5em;
+    height: 6.5em;
+    width: 6.5em;
+  }
+  .small{
+    height: 4em;
+    width: 4em;
+  }
+  .head {
+    font-size: 6em;
+    margin: 0 2.5em 0 .5em;
+  }
+  .sub {
+    font-size: 1.8em;  
+  }
+  .cardsContainer {
+    grid-template-columns: repeat(4, 1fr);
+  } 
+  .infoSection {
+    grid-column: 1 / 5;
+    padding: 2.5em 7em;
+  }
+  .aside {
+    padding: 2.5em 8em;
+    border: 5px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .brown {
     background-color: #7a4c48;
     background-image: url(./components/images/gridlines.png);
@@ -464,18 +611,56 @@ button {
     grid-row: 1 / -1;
     border-right: none;
   }
-.asideImg {
-  object-fit: cover;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  border: 5px solid #ccc;
-}
-
-a {
-  color: #ba9f9c;
-  background-color: none;
-}
-
-a:hover {
-  color: #fab7b1;
+  .asideImg {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 5px solid #ccc;
+  }
+  .loginContainer {
+    margin: 5em 10em 5em 10em;
+    padding: 5em 5em 2em 5em;
+  }
+  .loginText {
+    font-size: 2em;
+  }
+  .loginFormBtn {
+    font-size: 2em;
+    width: 15em;
+  }
+  .loginInput {
+    font-size: 1.75em;
+  }
+  .formBox {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .formTopLeft {  
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / 4;
+    padding: 1em;
+  }
+  .formTopRight {
+    grid-column: 4 / -1;
+    margin: 1em;
+    height: 8.5em;
+  }
+  .bottomLeft {
+    grid-column: 1 / 2;
+  }
+  .bottomLeft > input {
+    max-width: 4.25em;
+    font-size: 1em;
+  }
+  .bottomMiddle {
+    grid-column: 2 / 4;
+  }
+  .bottomRight {
+    grid-column: 4 / -1;
+  }
+  .formCheckboxContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+  }
 }

@@ -7,7 +7,7 @@ export default function About(){
     <>
       <Header 
         class={'small'}
-        header={'About Mikkie Makes'}
+        header={'About'}
       />
 
       <main className='mainWithAside'>
