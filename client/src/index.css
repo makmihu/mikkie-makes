@@ -457,6 +457,12 @@ a:hover {
 
 
 @media only screen and (550px < width <= 750px){
+  .navbar {
+    padding: .25em 3em;
+  }
+  .links {
+    font-size: 1.4em;  
+  }
   .head {
     font-size: 3em;
     margin: 0 1.5em 0 .5em;
@@ -495,6 +501,12 @@ a:hover {
   }
 }
 @media only screen and (750px < width <= 1024px){
+  .navbar {
+    padding: .25em 3em;
+  }
+  .links {
+    font-size: 1.8em;  
+  }
   .head {
     font-size: 4.5em;
     margin: 0 2em 0 .5em;
